@@ -1,0 +1,147 @@
+/************************************************
+******************HEADER 区域********************
+************************************************/
+
+/******* TOP *******/
+header .top {
+    height: 40px;
+    background-color: #0058AA;
+    min-width: 1155px;
+}
+
+header .top>.pageCore>p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 40px;
+    float: right;
+}
+
+/******* NAV *******/
+
+header nav {
+    height: 121px;
+    padding: 19px 0 11px 0;
+}
+
+/******* NAV-LOGO *******/
+header nav>.pageCore h1 {
+    font-size: 64px;
+    color: #0058AA;
+    line-height: 91px;
+    float: left;
+    margin-right: 109px;
+}
+
+/******* NAV-LIST *******/
+header nav>.pageCore>ul {
+    float: left;
+    height: 91px;
+}
+
+header nav>.pageCore>ul>li {
+    float: left;
+    margin-right: 50px;
+}
+
+header nav>.pageCore>ul>li>a>.iconBg {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 7px 20px 7px
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg {
+    background-color: #0058AA;
+    border-radius: 50%;
+}
+
+header nav>.pageCore>ul>li>a>p {
+    font-size: 16px;
+    color: #545454;
+}
+
+/******* NAV-SEARCH *******/
+header nav>.pageCore>.nav_search {
+    float: left;
+    margin-top: 32px;
+    width: 277px;
+    height: 39px;
+    margin-left: 55px;
+}
+
+header nav>.pageCore>.nav_search input {
+    border: 1px solid #D3D3D3;
+    border-right: 0;
+    float: left;
+    width: 213px;
+    height: 37px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #545454;
+}
+
+header nav>.pageCore>.nav_search button {
+    float: left;
+    width: 48px;
+    height: 39px;
+    background-color: #0058AA;
+    position: relative;
+    cursor: pointer;
+}
+
+/* 雪碧图图标 */
+.navIcon {
+    background-image: url(../assets/css_sprites.png);
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16.5px;
+    left: 50%;
+    margin-left: -16.5px;
+}
+
+.navIcon.i_home {
+    background-position: -169px -217px;
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg>.i_home {
+    background-position: -222px -217px;
+}
+
+.navIcon.i_about {
+    background-position: -231px -8px;
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg>.i_about {
+    background-position: -231px -63px;
+}
+
+.navIcon.i_headphone {
+    background-position: -284px -10px;
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg>.i_headphone {
+    background-position: -284px -63px;
+}
+
+.navIcon.i_four {
+    background-position: -232px -116px;
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg>.i_four {
+    background-position: -11px -218px;
+}
+
+.navIcon.i_setting {
+    background-position: -64px -218px;
+}
+
+header nav>.pageCore>ul>li:hover>a>.iconBg>.i_setting {
+    background-position: -117px -218px;
+}
+
+header nav>.pageCore>.nav_search>button>.navIcon {
+    background-position: -130px -163px;
+}
+

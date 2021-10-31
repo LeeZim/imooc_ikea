@@ -1,0 +1,61 @@
+/************************************************
+******************商品区********************
+************************************************/
+
+/******* 内容 *******/
+
+.content>div {
+    padding-top: 38px
+}
+
+.content .content_box {
+    width: 171px;
+    height: 234px;
+    margin: 0 25px;
+    float: left;
+}
+
+.content>div>ul {
+    padding: 0 25px;
+    height: 234px;
+}
+.content .content_box .picBox {
+    margin-bottom: 10px;
+}
+
+.content .content_box>a>p {
+    font-size: 18px;
+    color: #838383;
+    width: 171px;
+    height: 48px;
+    line-height: 22px;
+}
+
+/******* 左右箭头 *******/
+.content>div>div[class*='arrow'] {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    cursor: pointer;
+    background-image: url(../assets/css_sprites.png);
+}
+
+.content>div>.left_arrow {
+    left: -25px;
+    background-position: -75px -94px;
+}
+
+.content>div>.left_arrow:hover {
+    background-position: -160px -9px;
+}
+
+.content>div>.right_arrow {
+    right: -25px;
+    background-position: -95px -10px;
+}
+
+.content>div>.right_arrow:hover {
+    background-position: -10px -94px;
+}

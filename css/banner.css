@@ -1,0 +1,41 @@
+/************************************************
+******************BANNER 区域********************
+************************************************/
+
+/******* BANNER *******/
+.banner {
+    position: relative;
+}
+
+.banner>img {
+    width: 100%;
+    min-width: 1152px;
+}
+
+/******* BANNER-COUNTER *******/
+.banner>ol {
+    position: absolute;
+    width: 42px;
+    height: 10px;
+    left: 50%;
+    margin-left: -21px;
+    bottom: 50px;
+}
+
+.banner>ol>li {
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    background-color: #fff;
+    float: left;
+    border-radius: 50%;
+}
+
+.banner>ol>li.current {
+    background-color: #0058AA;
+}
+
+.banner>ol>li>a {
+    width: 10px;
+    height: 10px;
+}
