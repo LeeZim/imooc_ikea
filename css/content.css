@@ -32,7 +32,7 @@
 }
 
 /******* 左右箭头 *******/
-.content>div>div[class*='arrow'] {
+div[class*='arrow'] {
     width: 48px;
     height: 48px;
     position: absolute;
@@ -42,20 +42,20 @@
     background-image: url(../assets/css_sprites.png);
 }
 
-.content>div>.left_arrow {
+.left_arrow {
     left: -25px;
     background-position: -75px -94px;
 }
 
-.content>div>.left_arrow:hover {
+.left_arrow:hover {
     background-position: -160px -9px;
 }
 
-.content>div>.right_arrow {
+.right_arrow {
     right: -25px;
     background-position: -95px -10px;
 }
 
-.content>div>.right_arrow:hover {
+.right_arrow:hover {
     background-position: -10px -94px;
 }

@@ -55,3 +55,10 @@ input {
 .psa {
     position: absolute;
 }
+
+.underline_normal {
+    width: 93px;
+    height: 3px;
+    background-color: #0058AA;
+    margin: 0 auto;
+}

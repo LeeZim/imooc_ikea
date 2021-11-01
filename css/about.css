@@ -8,29 +8,27 @@
     padding-bottom: 82px;
 }
 
-.about .pageCore .about_title {
+.content_title {
     height: 42px;
-    border-bottom: 2px solid #808080;
 }
 
-.about .pageCore .about_title .about_title_content {
+.content_title .content_title_content {
     height: 80px;
     width: 150px;
     position: absolute;
     top: -1px;
     left: 50%;
     margin-left: -75px;
-    background-color: #fff;
     text-align: center;
 }
 
-.about .pageCore .about_title .about_title_content h2 {
+.content_title .content_title_content h2 {
     font-size: 32px;
     color: #696868;
     line-height: 42px;
 }
 
-.about .pageCore .about_title .about_title_content span {
+.content_title .content_title_content span {
         display: block;
         margin: 0 auto;
         width: 93px;
@@ -38,7 +36,7 @@
         color: #9B9B9B;
         margin-top: 2px;
         padding-bottom: 11px;
-        border-bottom: 1px solid #0058AA;
+        text-align: center;
 }
 
 .about .pageCore .about_content {
