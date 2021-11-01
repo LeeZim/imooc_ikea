@@ -1,0 +1,169 @@
+/************************************************
+******************了解我们 区域********************
+************************************************/
+
+/******* ABOUT *******/
+.about>div {
+    padding-top: 32px;
+    padding-bottom: 82px;
+}
+
+.about .pageCore .about_title {
+    height: 42px;
+    border-bottom: 2px solid #808080;
+}
+
+.about .pageCore .about_title .about_title_content {
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -75px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about .pageCore .about_title .about_title_content h2 {
+    font-size: 32px;
+    color: #696868;
+    line-height: 42px;
+}
+
+.about .pageCore .about_title .about_title_content span {
+        display: block;
+        margin: 0 auto;
+        width: 93px;
+        font-size: 18px;
+        color: #9B9B9B;
+        margin-top: 2px;
+        padding-bottom: 11px;
+        border-bottom: 1px solid #0058AA;
+}
+
+.about .pageCore .about_content {
+    padding-top: 78px;
+}
+
+.about .pageCore .about_content>div[class*="content_"] {
+    float: left;
+}
+
+.about .pageCore .about_content .about_content_left {
+    width: 238px;
+    margin-right: 147px;
+}
+
+.about .pageCore .about_content .about_content_left h3 {
+    font-size: 26px;
+    color: #0058AA;
+    line-height: 31px;
+}
+
+.about .pageCore .about_content .about_content_left p:first-of-type{
+    font-size: 21px;
+    color: #5A5A5A;
+    line-height: 41px;
+}
+
+.about .pageCore .about_content .about_content_left .underline {
+    width: 142px;
+    height: 4px;
+    background-color: #0058AA;
+}
+
+.about .pageCore .about_content .about_content_left p:last-of-type {
+    padding-top: 20px;
+    width: 238px;
+    height: 78px;
+    font-size: 18px;
+    color: #7B7C7C;
+    line-height: 26px;
+}
+
+.about .pageCore .about_content .about_content_left button {
+    width: 130px;
+    height: 38px;
+    background-color: #0058AA;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.about .pageCore .about_content .about_content_left button:hover {
+    animation: btnShake 1.5s linear 0s infinite alternate;
+}
+
+@keyframes btnShake {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.about .pageCore .about_content .about_content_middle {
+    margin-right: 113px;
+    width: 384px;
+    height: 256px;
+    overflow: hidden;
+}
+
+.about .pageCore .about_content .about_content_middle img {
+    transition: transform 0.5s linear 0s;
+}
+
+.about .pageCore .about_content .about_content_middle img:hover {
+    transform: scale(1.2);
+}
+
+.about .pageCore .about_content .about_content_right button {
+    cursor: pointer;
+    width: 273px;
+    height: 61px;
+    background-color: #CCC;
+    margin-bottom: 10px;
+    padding: 14px 19px 13px 30px;
+    transition: background-color 0.5s linear 0s;
+}
+
+.about .pageCore .about_content .about_content_right button .btn_icon {
+    width: 40px;
+    height: 34px;
+    background-image: url(../assets/css_sprites.png);
+    float: left;
+    margin-right: 19px;
+}
+
+.about .pageCore .about_content .about_content_right button:hover {
+    background-color: #0058AA;
+}
+
+.about .pageCore .about_content .about_content_right button .btn_icon.i_dialog {
+    background-position: -10px -162px;
+}
+
+.about .pageCore .about_content .about_content_right button .btn_icon.i_advertise {
+    background-position: -163px -78px;
+}
+
+.about .pageCore .about_content .about_content_right button .btn_icon.i_global {
+    background-position: -70px -163px;
+}
+
+.about .pageCore .about_content .about_content_right button p {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 12px;
+}
+
+.about .pageCore .about_content .about_content_right button p:first-child {
+    font-size: 22px;
+    line-height: 26px;
+}
+
